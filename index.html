@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>github.io</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+<script type="module">
+  window.onload = () => import("./App/main.js");
+</script>  
+</head>
+<body class="bg-light">
+  <header class="jumbotron">
+    <img src="https://avatars1.githubusercontent.com/u/59169551?s=460" alt="" srcset="">
+    <h1 class="display-3 h1 text-center "> FERIDUN AKYOL</h1>
+  </header>
+  <div class="container-fluid d-flex justify-content-between" >
+    <div class="col-md-4">
+      <h2>Personal Details</h2>
+      <table class="table table-dark mb-5">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Birthday</th>
+            <th scope="col">Nationality</th>
+            <th scope="col">Marital Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"></th>
+            <td>11.05.1981</td>
+            <td>Turkish</td>
+            <td>Married</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Education</h2>
+      <table class="table table-dark mb-5">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Degree</th>
+            <th scope="col">Place</th>
+            <th scope="col">Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Bachelor of Science in Mathematics</td>
+            <td>Bogazici University</td>
+            <td>2006</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Master of Science in Education of Mathematics</td>
+            <td>Istanbul University</td>
+            <td>2008</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Aksaray Science High School</td>
+            <td>Aksaray</td>
+            <td>1998</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Language Skills</h2>
+      <table class="table table-dark mb-5">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Language</th>
+            <th scope="col">Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Turkish</td>
+            <td>Native</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>English</td>
+            <td>Advanced</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Dutch</td>
+            <td>Intermadiate</td>
+          </tr>
+        </tbody>
+      </table>
+      <h2>Computer Skills</h2>
+      <table class="table table-dark mb-5">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Language</th>
+            <th scope="col">Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>HTML5</td>
+            <td>Good</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>CSS3</td>
+            <td>Good</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Javascript</td>
+            <td>Intermadiate</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Node</td>
+            <td>Beginner</td>
+          </tr>
+      
+      
+        </tbody>
+      </table>
+    </div>
+
+    <div class="col-md-6">
+      <h2>Some of My Projects</h2>
+      <div class="d-flex justify-content-between">
+        <div>
+          <button id="repos" class='btn btn-dark btn-block col-12 mr-3'>repos</button>
+          <div id="result"> </div>
+        </div>
+
+        <div>
+          <button id="favRepos" class='btn btn-dark col-12'>My favorite repos</button>
+          <div id="favorite-repos"></div>
+        </div>
+        
+        
+      </div>
+    </div>
+    
+    
+  </div>
+</body>
+</html>
