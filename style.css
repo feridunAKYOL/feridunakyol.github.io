@@ -1,0 +1,23 @@
+.first {
+	font-size: 24px;
+	font-weight: 500;
+}
+header {
+	text-align: center;
+}
+
+#result,
+#favorite-repos {
+	max-height: 80vh;
+	overflow-y: scroll;
+	border: .5px solid rgb(100, 100, 100);
+	color: black;
+}
+a {
+	color: black;
+}
+
+img {
+	width: 15vw;
+	border-radius: 50%;
+}
